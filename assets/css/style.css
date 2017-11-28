@@ -1,0 +1,185 @@
+* {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	
+
+}
+
+body {
+
+	background-image: url("../images/spiration-dark/spiration dark/spiration dark.png");
+	background-repeat: repeat;
+	height: 100%;
+	margin: 0;
+}
+
+h1 {
+
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	position: absolute;
+	width: 320px;
+	float: left;
+	z-index: 2;
+	border-color: #cccccc;
+	background-color: #4aaaa5;
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+	left: 15%;
+	top: 0;
+	text-align: center;
+}
+
+h2:after {
+  border-bottom: 3px solid gray;
+  content: '';
+  display: block;
+  margin-left: 5%;
+  width: 85%;
+}
+
+h3 {
+
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	text-align: center;
+	font-weight: bold;
+}
+
+h3:after {
+  border-bottom: 1px solid gray;
+  content: '';
+  display: block;
+  margin-left: 15%;
+  width: 75%;
+}
+
+h2, h4, h6, h5 {
+
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-weight: bold;
+	padding: 10px;
+	padding-bottom: 20px;
+
+}
+
+.topLine {
+	background-color: #f8f9fa;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.overallContent {
+
+	width: 960px;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+
+}
+
+.mainContent {
+
+	border-color: #dddddd;
+	width: 630px;
+	float: left;
+	background-color: #ffffff;
+	margin-right: 40px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+
+}
+
+.sideBar {
+
+	width: 250px;
+	float: left;
+	background-color: #ffffff;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+
+}
+
+.logo {
+
+	width: 33%;
+	float: left;
+}
+
+.placeholderPics {
+	width: 100%;
+	margin: 10px;
+	z-index: 1;
+}
+
+.pictureLabels {
+
+	position: relative;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	height: 20%;
+	left: 10px;
+	bottom: 50px;
+	width: 100%;
+	z-index: 2;
+	color: white;
+	background-color: #4aaaa5;
+	display: table;
+}
+
+.pictureLabels:visited { 
+	color: #343a40; 
+}
+
+.pictureLabels:hover { 
+	color: gray; 
+}
+
+.pictureCenter {
+	display: table-cell;
+  	vertical-align: middle;
+}
+
+
+.clearFix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+.page-wrap {
+	min-height: 100%;
+  	margin-bottom: -110px; 
+}
+
+.emptyBox, .push {
+	height: 10px;
+	background-color: #4aaaa5;
+	width: 100%;
+}
+
+.footer, .push {
+  	height: 100px;
+  	background-color: #666666;
+	width: 100%;
+	text-align: center;
+	display: table;
+}
+
+.footerText {
+
+	display: table-cell;
+  	vertical-align: middle;
+
+}
+
+.hover-outline:hover {
+  outline: 5px solid gray;
+  outline-offset: -5px;
+}
